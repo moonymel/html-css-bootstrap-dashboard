@@ -18,7 +18,8 @@
     <header class="fixed-top">
         <div class="container-fluid d-flex justify-content-between py-3">
             <div class="logo">
-                <img src="./img/logo.svg" alt="">
+                <img src="./img/logo.svg" alt="" class="d-none d-sm-block">
+                <img src="./img/mobile-logo.png" alt="" class="d-block d-sm-none" id="logo_mobile">
             </div>
             <div class="search content-fluid">
                 <div class="input-group mb-3">
@@ -27,17 +28,21 @@
                 </div>
             </div>
             <div class="icons">
-                <i class="fa-solid fa-bars fa-lg" style="color: #555555;"></i>
-                <i class="fa-solid fa-circle-question fa-lg" style="color: #555555;"></i>
-                <i class="fa-solid fa-ellipsis-vertical fa-lg" style="color: #555555;"></i>
-                <i class="fa-solid fa-bell fa-lg" style="color: #555555;"></i>
-
+                <div class="icons_lg d-none d-sm-inline-block">
+                    <i class="fa-solid fa-bars fa-lg" style="color: #555555;"></i>
+                    <i class="fa-solid fa-circle-question fa-lg" style="color: #555555;"></i>
+                    <i class="fa-solid fa-ellipsis-vertical fa-lg" style="color: #555555;"></i>  
+                    <i class="fa-solid fa-bell fa-lg" style="color: #555555;"></i>
+                </div>
+                <div class="icons_mobile d-block d-sm-none">
+                    <i class="fa-solid fa-bell fa-lg" style="color: #555555;"></i>
+                </div>
             </div>
         </div>
     </header>
 
     <!-- SIDEBAR: nav  -->
-    <div class="sidebar d-flex flex-column justify-content-between p-2">
+    <div class="sidebar d-flex flex-column justify-content-between p-2 d-none d-sm-flex">
         <div class="sidebar_top">
 
         </div>
@@ -45,6 +50,16 @@
 
         </div>
     </div>
+
+    <div class="sidebar_mobile d-flex flex-column justify-content-between p-2 d-sm-none">
+        <div class="sidebar_top">
+
+        </div>
+        <div class="sidebar_bottom">
+
+        </div>
+    </div>
+
 
     <!-- MAIN: box-blue (3col), box-main(2col)   -->
     <main>

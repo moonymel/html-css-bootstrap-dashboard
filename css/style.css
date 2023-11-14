@@ -10,6 +10,11 @@ body {
 
 /* UTILITIES  */
 
+li { 
+    display:inline-block;
+    padding:0px 5px;
+}
+
 
 /* HEADER */
 header {
@@ -17,14 +22,29 @@ header {
     height:70px;
 }
 
+header #logo_mobile {
+    width:45px;
+}
+
+header li:last-child {
+
+}
+
 /* SIDEBAR  */
 .sidebar { 
     position:fixed;
     bottom:0;
-    display:flex;
     height:calc(100vh - 70px);
     background-color: blue;
     width:200px;
+}
+
+.sidebar_mobile { 
+    position:fixed;
+    bottom:0;
+    height:calc(100vh - 70px);
+    background-color: blue;
+    width:80px;
 }
 
 .sidebar_top, .sidebar_bottom {

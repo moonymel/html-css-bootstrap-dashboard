@@ -18,8 +18,8 @@
     <header class="fixed-top">
         <div class="container-fluid d-flex justify-content-between py-3">
             <div class="logo">
-                <img src="./img/logo.svg" alt="" class="d-none d-sm-block">
-                <img src="./img/mobile-logo.png" alt="" class="d-block d-sm-none" id="logo_mobile">
+                <img src="./img/logo.svg" alt="" class="d-none d-md-block">
+                <img src="./img/mobile-logo.png" alt="" class="d-block d-md-none" id="logo_mobile">
             </div>
             <div class="search content-fluid">
                 <div class="input-group mb-3">
@@ -28,13 +28,13 @@
                 </div>
             </div>
             <div class="icons">
-                <div class="icons_lg d-none d-sm-inline-block">
+                <div class="icons_lg d-none d-md-inline-block">
                     <i class="fa-solid fa-bars fa-lg" style="color: #555555;"></i>
                     <i class="fa-solid fa-circle-question fa-lg" style="color: #555555;"></i>
                     <i class="fa-solid fa-ellipsis-vertical fa-lg" style="color: #555555;"></i>  
                     <i class="fa-solid fa-bell fa-lg" style="color: #555555;"></i>
                 </div>
-                <div class="icons_mobile d-block d-sm-none">
+                <div class="icons_mobile d-block d-md-none">
                     <i class="fa-solid fa-bell fa-lg" style="color: #555555;"></i>
                 </div>
             </div>
@@ -42,7 +42,7 @@
     </header>
 
     <!-- SIDEBAR: nav  -->
-    <div class="sidebar d-flex flex-column justify-content-between p-2 d-none d-sm-flex">
+    <div class="sidebar d-flex flex-column justify-content-between p-2 d-none d-md-flex">
         <div class="sidebar_top">
 
         </div>
@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <div class="sidebar_mobile d-flex flex-column justify-content-between p-2 d-sm-none">
+    <div class="sidebar_mobile d-flex flex-column justify-content-between p-2 d-md-none">
         <div class="sidebar_top">
 
         </div>
@@ -63,7 +63,73 @@
 
     <!-- MAIN: box-blue (3col), box-main(2col)   -->
     <main>
+        <div class="main_all">
 
+            <!-- BOX-BLUE  -->
+            <div class="main_top">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <div class="content">
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <div class="content">
+                                
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <div class="content">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+
+            <!-- BOX-MAIN  -->
+            <div class="main_bottom p-3">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="content">
+                            <div class="card">
+                                <div class="card-header">
+                                  Featured
+                                </div>
+                                <div class="card-body">
+                                  qui va la tabellaaaaa
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                  Featured
+                                </div>
+                                <div class="card-body">
+                                  qui le faq
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="content">
+                            <div class="card">
+                                <div class="card-header">
+                                Featured
+                                </div>
+                                <div class="card-body">
+                                qui il todo
+                                </div>
+
+                                <div class="card-body">
+                                qui il grafico ecc (devo separare meglio)
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

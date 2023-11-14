@@ -54,3 +54,24 @@ header li:last-child {
 }
 
 /* MAIN  */
+.main_all {
+    width:calc(100vw - 200px);
+    position:absolute;
+    right:0;
+    top:70px;
+}
+.main_top {
+    background-color: aquamarine;
+}
+
+.main_top .content {
+    background-color: aqua;
+    height:100px;
+}
+
+
+@media screen and (max-width:768px) {
+    .main_all {
+        width:calc(100vw - 80px);
+    }
+}

@@ -64,8 +64,12 @@ header li:last-child {
     background-color: #1b72e8;
 }
 
-.main_top .content {
+main .table th:nth-child(1), .table td:nth-child(1) {
+    width:50%;
+}
 
+main .table img {
+    width:20px;
 }
 
 

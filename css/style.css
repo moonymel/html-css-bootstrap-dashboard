@@ -65,7 +65,7 @@ header li:last-child {
 }
 
 main .table th:nth-child(1), .table td:nth-child(1) {
-    width:50%;
+    width:40%;
 }
 
 main .table img {

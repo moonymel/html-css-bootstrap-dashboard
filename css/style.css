@@ -61,16 +61,15 @@ header li:last-child {
     top:70px;
 }
 .main_top {
-    background-color: aquamarine;
+    background-color: #1b72e8;
 }
 
 .main_top .content {
-    background-color: aqua;
-    height:100px;
+
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:991px) {
     .main_all {
         width:calc(100vw - 70px);
     }
